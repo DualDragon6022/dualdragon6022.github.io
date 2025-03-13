@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" style="width:100%;height:100%;">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
+    <title>Minecraft 1.12.2</title>
+
+    <script type="text/javascript" src="../assets/loader.js"></script>
+    <script type="text/javascript">
+        fetchIPFS("v1_12_2", "wasm", (loaderData) => {
+            loaderData.file = "net.lax1dude.eaglercraft.1_12.client_wasm"
+            loaderData.name = "PixelClient 1.12.2 WASM"
+        })
+    </script>
+    <link type="image/png" rel="shortcut icon" href="../assets/game.png" />
+</head>
+
+<body style="margin:0;width:100%;height:100%;overflow:hidden;" id="game_frame">
+</body>
+
+</html>

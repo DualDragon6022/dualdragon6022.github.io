@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>PixelClient Launcher</title>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const hasWasm = (typeof WebAssembly !== "undefined") && (typeof WebAssembly.Suspending !== "undefined");
+            const root = document.documentElement;
+            const transitionDiv = document.getElementById("transition");
+
+            function transitionTo(url) {
+                transitionDiv.style.pointerEvents = "all";
+                root.style.setProperty("--transition", "1");
+                setTimeout(() => {
+                    transitionDiv.style.pointerEvents = "none";
+                    root.style.setProperty("--transition", "0");
+                    window.location.assign(url);
+                }, 1000);
+            }
+
+            function setupButtonEvents() {
+                document.querySelectorAll("[data-action]").forEach(button => {
+                    if (button.dataset.requiresWasm && !hasWasm) {
+                        button.disabled = true;
+                    }
+
+                    button.addEventListener("click", () => {
+                        if (button.dataset.action === "discord") {
+                            window.open(button.dataset.url, "_blank");
+                            return;
+                        }
+
+                        if(button.dataset.fallbackUrl && !hasWasm) {
+                            transitionTo(button.dataset.fallbackUrl);
+                            return;
+                        }
+
+                        if (button.dataset.requiresWasm && !hasWasm) {
+                            return;
+                        }
+
+                        transitionTo(button.dataset.url);
+                    });
+                });
+            }
+
+            setupButtonEvents();
+        });
+    </script>
+</head>
+
+<body>
+    <div id="transition"></div>
+    <div id="app">
+        <h1>PixelClient Launcher</h1>
+
+        <button data-action="launch" data-url="wasm/" data-fallback-url="js/">Best choice 1.8</button>
+        <button data-action="launch" data-url="wasm-1.12.2/" data-fallback-url="js-1.12.2/">Best choice 1.12</button>
+        <button data-action="discord" data-url="https://discord.gg/8jHhmvaKtc">Join Discord</button>
+
+        <hr>
+
+        <button data-action="launch" data-requires-wasm="true" data-url="wasm/">Launch 1.8 WASM-GC</button>
+        <button data-action="launch" data-url="js">Launch 1.8 JavaScript</button>
+        <br>
+        <button data-action="launch" data-url="offline/#wasm">Download 1.8 WASM-GC</button>
+        <button data-action="launch" data-url="offline/">Download 1.8 JavaScript</button>
+
+        <hr>
+
+        <button data-action="launch" data-requires-wasm="true" data-url="wasm-1.12.2/">Launch 1.12 WASM-GC</button>
+        <button data-action="launch" data-url="js-1.12.2/">Launch 1.12 JavaScript</button>
+        <br>
+        <button data-action="launch" data-url="offline-1.12.2/#wasm">Download 1.12 WASM-GC</button>
+        <button data-action="launch" data-url="offline-1.12.2/">Download 1.12 JavaScript</button>
+    </div>
+</body>
+
+</html>
