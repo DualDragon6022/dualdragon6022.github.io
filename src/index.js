@@ -15,12 +15,12 @@ app.use(express.static(path.join(__dirname, "..", "public")));
 let ipfsData = {
     v1_8_8: {
         wasm: {
-            cid: "QmYrw926pb6jFyMqG2z4Bq7NzTBN97mJ2utNXAjcdgfgJn",
-            size: 13032920,
+            cid: "QmQjrEWAoryALx5x3EZfQdsKBejdrZf3myNSLDQNn16YrY",
+            size: 13146104,
         },
         js: {
-            cid: "QmcuLfNtaiZMYDWTRjcU7akPxrzhV3VXfUcG3cG4nC4ra4",
-            size: 14424257,
+            cid: "QmdxmaUT87vwsJPwZknQdDt3NGbQex9754PATfzaQkiCqA",
+            size: 14531831,
         },
     },
     v1_12_2: {
@@ -49,7 +49,9 @@ app.get("/api/ipfs", (req, res) => {
 });
 
 app.use((req, res, next) => {
-    res.status(404).header("Content-Type", "text/plain").sendFile(path.join(__dirname, "..", "public", "404.html"));
+    res.status(404)
+        .header("Content-Type", "text/plain")
+        .sendFile(path.join(__dirname, "..", "public", "404.html"));
 });
 
 // Get the app to listen
