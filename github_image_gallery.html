@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>GitHub Image Gallery</title>
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 24px; background: #111; color: #eee; }
+    h1 { margin-bottom: 8px; }
+    #status { color: #aaa; margin-bottom: 20px; }
+    #gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 18px; }
+    figure { margin: 0; background: #1c1c1c; padding: 10px; border-radius: 10px; }
+    img { display: block; width: 100%; height: auto; border-radius: 6px; background: #000; }
+    figcaption { padding: 8px 2px 2px; overflow-wrap: anywhere; }
+    a { color: #8ab4ff; }
+  </style>
+</head>
+<body>
+  <h1>GitHub Image Gallery</h1>
+  <div id="status">Loading images…</div>
+  <main id="gallery"></main>
+
+<script>
+const OWNER = "DualDragon6022";
+const REPO = "dualdragon6022.github.io";
+const VERSION = "1.3.2"; // Change this for another version.
+
+const IMAGE_EXTENSIONS = [
+  ".png", ".jpg", ".jpeg", ".gif", ".webp", ".bmp", ".avif"
+];
+
+const apiURL =
+  `https://api.github.com/repos/${OWNER}/${REPO}/contents/${encodeURIComponent(VERSION)}?ref=main`;
+
+const gallery = document.getElementById("gallery");
+const status = document.getElementById("status");
+
+function isImage(name) {
+  const lower = name.toLowerCase();
+  return IMAGE_EXTENSIONS.some(ext => lower.endsWith(ext));
+}
+
+async function loadImages() {
+  try {
+    const response = await fetch(apiURL, {
+      headers: { "Accept": "application/vnd.github+json" }
+    });
+
+    if (!response.ok)
+      throw new Error(`GitHub API returned ${response.status}`);
+
+    const entries = await response.json();
+    const images = entries.filter(item => item.type === "file" && isImage(item.name));
+
+    if (!images.length) {
+      status.textContent = `No image files found in ${VERSION}/`;
+      return;
+    }
+
+    status.textContent = `Found ${images.length} image(s) in ${VERSION}/`;
+
+    for (const file of images) {
+      const figure = document.createElement("figure");
+      const img = document.createElement("img");
+      const caption = document.createElement("figcaption");
+      const link = document.createElement("a");
+
+      // GitHub's download_url is a normal image URL, so the browser
+      // can decode and display the actual binary image automatically.
+      img.src = file.download_url;
+      img.alt = file.name;
+      img.loading = "lazy";
+
+      link.href = file.html_url;
+      link.target = "_blank";
+      link.rel = "noopener";
+      link.textContent = file.name;
+
+      caption.appendChild(link);
+      figure.appendChild(img);
+      figure.appendChild(caption);
+      gallery.appendChild(figure);
+    }
+  } catch (error) {
+    status.textContent = `Error: ${error.message}`;
+    console.error(error);
+  }
+}
+
+loadImages();
+</script>
+</body>
+</html>
