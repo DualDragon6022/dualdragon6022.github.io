@@ -1,0 +1,554 @@
+[16:15:42] [main/INFO]: Loading Minecraft 26.2 with Fabric Loader 0.19.3
+[16:15:42] [main/INFO]: Mappings not present!
+[16:15:42] [main/INFO]: Loading 99 mods:
+	- appleskin 3.0.10+mc26.2
+	- balm 26.2.0.5
+	   \-- kuma_api 26.2.0.1
+	- betterf3 19.0.0
+	- chat_heads 1.2.8
+	- cloth-config 26.2.155
+	   \-- cloth-basic-math 0.6.1
+	- creativecore 2.14.16
+	   \-- net_neoforged_bus 7.2.0
+	- defaultoptions 26.2.0.3
+	- fabric-api 0.157.0+26.2
+	   |-- fabric-api-base 2.0.4+ece063239e
+	   |-- fabric-api-lookup-api-v1 2.0.17+11e1c9a39e
+	   |-- fabric-biome-api-v1 18.0.6+c7bd5b8e9e
+	   |-- fabric-block-api-v1 3.0.3+ec56b6019e
+	   |-- fabric-block-getter-api-v2 2.0.7+ec56b6019e
+	   |-- fabric-command-api-v2 3.1.0+00cb03469e
+	   |-- fabric-content-registries-v0 11.3.1+37b1aa249e
+	   |-- fabric-convention-tags-v2 4.7.0+1f023a9e9e
+	   |-- fabric-crash-report-info-v1 1.0.5+086d547a9e
+	   |-- fabric-creative-tab-api-v1 5.0.14+d871b99e9e
+	   |-- fabric-data-attachment-api-v1 2.2.18+515ac5339e
+	   |-- fabric-data-generation-api-v1 25.5.0+aed122aa9e
+	   |-- fabric-debug-api-v1 1.0.2+c792624d9e
+	   |-- fabric-dimensions-v1 5.1.11+515ac5339e
+	   |-- fabric-entity-events-v1 5.0.5+06488ac19e
+	   |-- fabric-events-interaction-v0 5.2.7+515ac5339e
+	   |-- fabric-game-rule-api-v1 4.0.8+46a6d00c9e
+	   |-- fabric-item-api-v1 14.4.0+49a69a7b9e
+	   |-- fabric-key-mapping-api-v1 2.0.5+e2bdee789e
+	   |-- fabric-lifecycle-events-v1 4.1.3+4575b05f9e
+	   |-- fabric-loot-api-v3 3.0.17+06488ac19e
+	   |-- fabric-menu-api-v1 2.0.16+086d547a9e
+	   |-- fabric-message-api-v1 7.0.8+bb2ed3f79e
+	   |-- fabric-model-loading-api-v1 8.0.16+c80601bb9e
+	   |-- fabric-networking-api-v1 6.3.3+72073ef09e
+	   |-- fabric-object-builder-api-v1 24.1.0+6fcd5f039e
+	   |-- fabric-particles-v1 5.0.18+d1756aa99e
+	   |-- fabric-permission-api-v1 1.0.5+e442d8d09e
+	   |-- fabric-recipe-api-v1 9.0.20+11e1c9a39e
+	   |-- fabric-registry-sync-v0 7.1.0+c7bd5b8e9e
+	   |-- fabric-renderer-api-v1 14.1.3+2b0d8a229e
+	   |-- fabric-renderer-indigo 9.1.3+2b0d8a229e
+	   |-- fabric-rendering-fluids-v1 6.0.4+06488ac19e
+	   |-- fabric-rendering-v1 25.3.2+515ac5339e
+	   |-- fabric-resource-conditions-api-v1 6.1.0+10e9a28b9e
+	   |-- fabric-resource-loader-v0 3.3.20+4fc5413f9e
+	   |-- fabric-resource-loader-v1 2.0.13+9edec1269e
+	   |-- fabric-screen-api-v1 5.2.0+58e078ad9e
+	   |-- fabric-serialization-api-v1 2.0.4+11a26f319e
+	   |-- fabric-sound-api-v1 2.0.5+11a26f319e
+	   |-- fabric-tag-api-v1 2.1.4+515ac5339e
+	   |-- fabric-transfer-api-v1 8.0.12+11dbb7d79e
+	   \-- fabric-transitive-access-wideners-v1 8.1.4+67c847259e
+	- fabric-language-kotlin 1.13.13+kotlin.2.4.10
+	   |-- org_jetbrains_kotlin_kotlin-reflect 2.4.10
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.4.10
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.4.10
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.4.10
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.33.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.11.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.11.0
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.8.0
+	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.9.1
+	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.9.1
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.11.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.11.0
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.11.0
+	- fabricloader 0.19.3
+	   \-- mixinextras 0.5.4
+	- ferritecore 9.0.0
+	- immediatelyfast 1.16.2+26.2
+	- iris 1.11.2+mc26.2
+	   |-- io_github_douira_glsl-transformer 3.0.0-pre3
+	   |-- org_anarres_jcpp 1.4.14
+	   \-- org_antlr_antlr4-runtime 4.13.1
+	- java 25
+	- libipn 6.8.3
+	- lithium 0.25.3+mc26.2
+	- malilib 0.29.3
+	   |-- conditional-mixin 0.6.4
+	   \-- fabric-api-base 2.0.4+ece063239e
+	- minecraft 26.2
+	- minihud 0.40.4
+	   \-- conditional-mixin 0.6.4
+	- modmenu 20.0.1
+	   \-- fabric-api-base 2.0.4+ece063239e
+	- moreculling 1.8.1
+	   \-- mixinsquared 0.2.0
+	- placeholder-api 3.1.0-beta.1+26.2
+	- shulkerboxtooltip 5.4.0+26.2
+	- sodium 0.9.1+mc26.2
+	- yet_another_config_lib_v3 3.9.6+26.2-fabric
+	   |-- com_twelvemonkeys_common_common-image 3.12.0
+	   |-- com_twelvemonkeys_common_common-io 3.12.0
+	   |-- com_twelvemonkeys_common_common-lang 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-core 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-metadata 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-webp 3.12.0
+	   |-- org_quiltmc_parsers_gson 0.2.1
+	   \-- org_quiltmc_parsers_json 0.2.1
+	- zoomify 2.16.1+26.2
+[16:15:42] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/net/fabricmc/sponge-mixin/0.17.3+mixin.0.8.7/sponge-mixin-0.17.3+mixin.0.8.7.jar Service=Knot/Fabric Env=CLIENT
+[16:15:42] [main/INFO]: Compatibility level set to JAVA_25
+[16:15:42] [main/WARN]: Reference map 'creativecore.mixins.refmap.json' for creativecore.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:15:42] [main/WARN]: Reference map 'creativecore.mixins.refmap.json' for creativecore.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:15:42] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.json could not be read. If this is a development environment you can ignore this message
+[16:15:42] [main/WARN]: Reference map 'iris-fabric.refmap.json' for mixins.iris.fabric.json could not be read. If this is a development environment you can ignore this message
+[16:15:42] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.vertexformat.json could not be read. If this is a development environment you can ignore this message
+[16:15:42] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.bettermipmaps.json could not be read. If this is a development environment you can ignore this message
+[16:15:42] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.compat.sodium.json could not be read. If this is a development environment you can ignore this message
+[16:15:42] [main/WARN]: Reference map 'iris.refmap.json' for mixins.iris.fixes.maxfpscrash.json could not be read. If this is a development environment you can ignore this message
+[16:15:42] [main/WARN]: Reference map 'kuma_api.refmap.json' for kuma_api.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:15:42] [main/WARN]: Reference map 'kuma_api.refmap.json' for kuma_api.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:15:42] [main/INFO]: Loaded configuration file for Lithium: 171 options available, 0 override(s) found.
+[16:15:42] [main/WARN]: No configuration key exists with name 'mixin.features.buffer_builder.intrinsics', ignoring
+[16:15:42] [main/WARN]: No configuration key exists with name 'mixin.features.chunk_rendering', ignoring
+[16:15:42] [main/INFO]: Loaded configuration file for Sodium: 36 options available, 1 override(s) found
+[16:15:42] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:15:42] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[16:15:43] [main/WARN]: Error loading class: mezz/jei/fabric/platform/RenderHelper (java.lang.ClassNotFoundException: mezz/jei/fabric/platform/RenderHelper)
+[16:15:43] [main/WARN]: @Mixin target mezz.jei.fabric.platform.RenderHelper was not found appleskin.jei.mixins.json:JEIRenderHelperMixin from mod appleskin
+[16:15:43] [main/WARN]: Force-disabling mixin 'features.render.world.sky.LevelRendererMixin' as rule 'mixin.features.render.world.sky' (added by mods [iris]) disables it and children
+[16:15:43] [main/INFO]: Searching for graphics cards...
+[16:15:43] [main/WARN]: Could not find any graphics adapters! Probably the device is not on a bus we can probe, or there are no devices supporting 3D acceleration.
+[16:15:43] [main/WARN]: Sodium has applied one or more workarounds to prevent crashes or other issues on your system: [NO_ERROR_CONTEXT_UNSUPPORTED]
+[16:15:43] [main/WARN]: This is not necessarily an issue, but it may result in certain features or optimizations being disabled. You can sometimes fix these issues by upgrading your graphics driver.
+[16:15:43] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.4).
+[16:15:44] [main/WARN]: Did not find udev library in operating system. Some features may not work.
+[16:15:44] [main/WARN]: File not found or not readable: /proc/stat
+[16:15:44] [Datafixer Bootstrap #0/INFO]: 295 Datafixer optimizations took 420 milliseconds
+[16:15:44] [main/WARN]: File not found or not readable: /etc/os-release
+[16:15:44] [main/WARN]: File not found or not readable: /etc/lsb-release
+[16:15:44] [main/WARN]: File not found or not readable: /proc/version
+[16:15:48] [main/INFO]: Loaded default options for extra-folder
+[16:15:48] [Render thread/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, profilesHost=https://api.mojang.com, name=PROD]
+[16:15:48] [Render thread/INFO]: Setting user: DualDragon6022
+[16:15:48] [Render thread/INFO]: Mod proxy balm:permissions resolved as net.blay09.mods.balm.platform.permissions.internal.CommonBalmPermissions@47e3c061
+[16:15:48] [Render thread/INFO]: [ShulkerBoxTooltip] Could not find configuration file, creating default file
+[16:15:48] [Render thread/INFO]: [BetterF3] Loading...
+[16:15:48] [Render thread/INFO]: [BetterF3] All done!
+[16:15:49] [Render thread/INFO]: [Indigo] Different rendering plugin detected; not applying Indigo.
+[16:15:49] [Render thread/INFO]: Checking mod updates...
+[16:15:49] [Render thread/INFO]: Deserializing YACLConfig from '/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/./custom_instances/lite_assist_26.2_Hotfix_3e05493e60179c1de72c9918248e2cd5322b890d/config/yacl.json5'
+[16:15:49] [Render thread/INFO]: options.txt already exists - last modified 1787346941614
+[16:15:49] [Render thread/ERROR]: Error parsing option value off for option Fullscreen: Not a boolean: "off"
+[16:15:49] [Render thread/INFO]: Backend library: LWJGL version 3.4.1-snapshot
+[16:15:50] [Download-2/INFO]: Update available for 'minihud@0.40.4', (-> 0.40.5)
+[16:15:50] [Download-2/INFO]: Update available for 'immediatelyfast@1.16.2+26.2', (-> 1.16.3+26.2-fabric)
+[16:15:50] [Download-2/INFO]: Update available for 'fabric-api@0.157.0+26.2', (-> 0.158.0+26.2)
+[16:15:50] [Download-2/INFO]: Update available for 'malilib@0.29.3', (-> 0.29.4)
+[16:15:50] [Download-2/INFO]: Update available for 'balm@26.2.0.5', (-> 26.2.0.6+fabric-26.2)
+[16:15:50] [ForkJoinPool.commonPool-worker-1/WARN]: [Iris Update Check] This version doesn't have an update index, skipping.
+[16:15:50] [Render thread/INFO]: [STDOUT]: Driver opengles_mobileglues GL string returned 40
+[16:15:50] [Render thread/INFO]: [STDOUT]: Driver opengles_mobileglues GL version returned 40
+[16:15:50] [Render thread/INFO]: [STDOUT]: Using GL version 40 for GLFW window context!
+[16:15:50] [Render thread/INFO]: Debug functionality is disabled.
+[16:15:50] [Render thread/INFO]: ARB_direct_state_access detected, enabling DSA.
+[16:15:51] [Render thread/WARN]: Unable to resolve shader pack option menu element "DYNAMIC_SHADOWS" defined in shaders.properties
+[16:15:51] [Render thread/WARN]: Unable to resolve shader pack option menu element "SOFT_BLOCK_LIGHT" defined in shaders.properties
+[16:15:51] [Render thread/WARN]: Unable to resolve shader pack option menu element "TRANSMITTED_LIGHT" defined in shaders.properties
+[16:15:51] [Render thread/INFO]: Profile: HIGH (+1 option changed by user)
+[16:15:51] [Render thread/ERROR]: Failed to process ConstDirective { INT shadowMapResolution = 2048 + 3*1536; }
+java.lang.NumberFormatException: For input string: "2048 + 3*1536"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:565)
+	at java.base/java.lang.Integer.parseInt(Integer.java:662)
+	at knot//net.irisshaders.iris.shaderpack.parsing.DispatchingDirectiveHolder.processDirective(DispatchingDirectiveHolder.java:78)
+	at knot//net.irisshaders.iris.shaderpack.programs.ProgramSet.lambda$locateDirectives$1(ProgramSet.java:266)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at knot//net.irisshaders.iris.shaderpack.programs.ProgramSet.locateDirectives(ProgramSet.java:264)
+	at knot//net.irisshaders.iris.shaderpack.programs.ProgramSet.<init>(ProgramSet.java:94)
+	at knot//net.irisshaders.iris.shaderpack.ShaderPack.<init>(ShaderPack.java:322)
+	at knot//net.irisshaders.iris.Iris.loadExternalShaderpack(Iris.java:329)
+	at knot//net.irisshaders.iris.Iris.loadShaderpack(Iris.java:245)
+	at knot//net.irisshaders.iris.Iris.onRenderSystemInit(Iris.java:150)
+	at knot//com.mojang.blaze3d.systems.RenderSystem.handler$bln000$iris$onRendererInit(RenderSystem.java:531)
+	at knot//com.mojang.blaze3d.systems.RenderSystem.initRenderer(RenderSystem.java:171)
+	at knot//net.minecraft.client.Minecraft.<init>(Minecraft.java:523)
+	at knot//net.minecraft.client.main.Main.main(Main.java:278)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+[16:15:51] [Render thread/ERROR]: Failed to process ConstDirective { INT shadowMapResolution = 2048 + 3*1536; }
+java.lang.NumberFormatException: For input string: "2048 + 3*1536"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:565)
+	at java.base/java.lang.Integer.parseInt(Integer.java:662)
+	at knot//net.irisshaders.iris.shaderpack.parsing.DispatchingDirectiveHolder.processDirective(DispatchingDirectiveHolder.java:78)
+	at knot//net.irisshaders.iris.shaderpack.programs.ProgramSet.lambda$locateDirectives$1(ProgramSet.java:266)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at knot//net.irisshaders.iris.shaderpack.programs.ProgramSet.locateDirectives(ProgramSet.java:264)
+	at knot//net.irisshaders.iris.shaderpack.programs.ProgramSet.<init>(ProgramSet.java:94)
+	at knot//net.irisshaders.iris.shaderpack.ShaderPack.<init>(ShaderPack.java:322)
+	at knot//net.irisshaders.iris.Iris.loadExternalShaderpack(Iris.java:329)
+	at knot//net.irisshaders.iris.Iris.loadShaderpack(Iris.java:245)
+	at knot//net.irisshaders.iris.Iris.onRenderSystemInit(Iris.java:150)
+	at knot//com.mojang.blaze3d.systems.RenderSystem.handler$bln000$iris$onRendererInit(RenderSystem.java:531)
+	at knot//com.mojang.blaze3d.systems.RenderSystem.initRenderer(RenderSystem.java:171)
+	at knot//net.minecraft.client.Minecraft.<init>(Minecraft.java:523)
+	at knot//net.minecraft.client.main.Main.main(Main.java:278)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+[16:15:51] [Render thread/ERROR]: Failed to process ConstDirective { INT shadowMapResolution = 2048 + 3*1536; }
+java.lang.NumberFormatException: For input string: "2048 + 3*1536"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:565)
+	at java.base/java.lang.Integer.parseInt(Integer.java:662)
+	at knot//net.irisshaders.iris.shaderpack.parsing.DispatchingDirectiveHolder.processDirective(DispatchingDirectiveHolder.java:78)
+	at knot//net.irisshaders.iris.shaderpack.programs.ProgramSet.lambda$locateDirectives$1(ProgramSet.java:266)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at knot//net.irisshaders.iris.shaderpack.programs.ProgramSet.locateDirectives(ProgramSet.java:264)
+	at knot//net.irisshaders.iris.shaderpack.programs.ProgramSet.<init>(ProgramSet.java:94)
+	at knot//net.irisshaders.iris.shaderpack.ShaderPack.<init>(ShaderPack.java:322)
+	at knot//net.irisshaders.iris.Iris.loadExternalShaderpack(Iris.java:329)
+	at knot//net.irisshaders.iris.Iris.loadShaderpack(Iris.java:245)
+	at knot//net.irisshaders.iris.Iris.onRenderSystemInit(Iris.java:150)
+	at knot//com.mojang.blaze3d.systems.RenderSystem.handler$bln000$iris$onRendererInit(RenderSystem.java:531)
+	at knot//com.mojang.blaze3d.systems.RenderSystem.initRenderer(RenderSystem.java:171)
+	at knot//net.minecraft.client.Minecraft.<init>(Minecraft.java:523)
+	at knot//net.minecraft.client.main.Main.main(Main.java:278)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+[16:15:51] [Render thread/ERROR]: Failed to process ConstDirective { INT shadowMapResolution = 2048 + 3*1536; }
+java.lang.NumberFormatException: For input string: "2048 + 3*1536"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:565)
+	at java.base/java.lang.Integer.parseInt(Integer.java:662)
+	at knot//net.irisshaders.iris.shaderpack.parsing.DispatchingDirectiveHolder.processDirective(DispatchingDirectiveHolder.java:78)
+	at knot//net.irisshaders.iris.shaderpack.programs.ProgramSet.lambda$locateDirectives$1(ProgramSet.java:266)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at knot//net.irisshaders.iris.shaderpack.programs.ProgramSet.locateDirectives(ProgramSet.java:264)
+	at knot//net.irisshaders.iris.shaderpack.programs.ProgramSet.<init>(ProgramSet.java:94)
+	at knot//net.irisshaders.iris.shaderpack.ShaderPack.<init>(ShaderPack.java:322)
+	at knot//net.irisshaders.iris.Iris.loadExternalShaderpack(Iris.java:329)
+	at knot//net.irisshaders.iris.Iris.loadShaderpack(Iris.java:245)
+	at knot//net.irisshaders.iris.Iris.onRenderSystemInit(Iris.java:150)
+	at knot//com.mojang.blaze3d.systems.RenderSystem.handler$bln000$iris$onRendererInit(RenderSystem.java:531)
+	at knot//com.mojang.blaze3d.systems.RenderSystem.initRenderer(RenderSystem.java:171)
+	at knot//net.minecraft.client.Minecraft.<init>(Minecraft.java:523)
+	at knot//net.minecraft.client.main.Main.main(Main.java:278)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+[16:15:51] [Render thread/ERROR]: Failed to process ConstDirective { INT shadowMapResolution = 2048 + 3*1536; }
+java.lang.NumberFormatException: For input string: "2048 + 3*1536"
+	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
+	at java.base/java.lang.Integer.parseInt(Integer.java:565)
+	at java.base/java.lang.Integer.parseInt(Integer.java:662)
+	at knot//net.irisshaders.iris.shaderpack.parsing.DispatchingDirectiveHolder.processDirective(DispatchingDirectiveHolder.java:78)
+	at knot//net.irisshaders.iris.shaderpack.programs.ProgramSet.lambda$locateDirectives$1(ProgramSet.java:266)
+	at java.base/java.util.Optional.ifPresent(Optional.java:178)
+	at knot//net.irisshaders.iris.shaderpack.programs.ProgramSet.locateDirectives(ProgramSet.java:264)
+	at knot//net.irisshaders.iris.shaderpack.programs.ProgramSet.<init>(ProgramSet.java:94)
+	at knot//net.irisshaders.iris.shaderpack.ShaderPack.<init>(ShaderPack.java:322)
+	at knot//net.irisshaders.iris.Iris.loadExternalShaderpack(Iris.java:329)
+	at knot//net.irisshaders.iris.Iris.loadShaderpack(Iris.java:245)
+	at knot//net.irisshaders.iris.Iris.onRenderSystemInit(Iris.java:150)
+	at knot//com.mojang.blaze3d.systems.RenderSystem.handler$bln000$iris$onRendererInit(RenderSystem.java:531)
+	at knot//com.mojang.blaze3d.systems.RenderSystem.initRenderer(RenderSystem.java:171)
+	at knot//net.minecraft.client.Minecraft.<init>(Minecraft.java:523)
+	at knot//net.minecraft.client.main.Main.main(Main.java:278)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+[16:15:51] [Render thread/INFO]: Using shaderpack: Aurora_Shaders_Cinematic_1.3.3-hotfix-7.zip
+[16:15:51] [Render thread/INFO]: Initializing ImmediatelyFast 1.16.2+26.2 on Adreno (TM) 840 | OpenGL ES 3.2 (Swung0x48, BZLZHH, Tungsten) with OpenGL 4.0.0 MobileGlues 1.3.4
+[16:15:51] [Render thread/INFO]: Using graphics backend OpenGL, using drivers: 4.0.0 MobileGlues 1.3.4
+[16:15:51] [Render thread/INFO]: Using graphics device: Adreno (TM) 840 | OpenGL ES 3.2 (Swung0x48, BZLZHH, Tungsten)
+[16:15:51] [Render thread/INFO]: Using graphics device extensions: GL_ARB_buffer_storage, GL_ARB_vertex_attrib_binding, GL_ARB_direct_state_access
+[16:15:51] [Render thread/INFO]: Sodium: [0.9.1+mc26.2], Iris: [1.11.2+mc26.2]
+[16:15:51] [Render thread/INFO]: Assigning MaLiLib Pipelines to Iris Programs:
+[16:15:51] [Render thread/WARN]: Found okay program match for malilib:pipeline/position_color/translucent/no_depth/no_cull: BASIC_COLOR
+[16:15:51] [Render thread/WARN]: Found okay program match for malilib:pipeline/position_color/translucent/no_depth: BASIC_COLOR
+[16:15:51] [Render thread/WARN]: Found okay program match for malilib:pipeline/position_color/translucent/lequal_depth/offset_1: BASIC_COLOR
+[16:15:51] [Render thread/WARN]: Found okay program match for malilib:pipeline/position_color/translucent/lequal_depth/offset_2: BASIC_COLOR
+[16:15:51] [Render thread/WARN]: Found okay program match for malilib:pipeline/position_color/translucent/lequal_depth/offset_3: BASIC_COLOR
+[16:15:51] [Render thread/WARN]: Found okay program match for malilib:pipeline/position_color/translucent/lequal_depth/no_cull: BASIC_COLOR
+[16:15:51] [Render thread/WARN]: Found okay program match for malilib:pipeline/position_color/translucent/lequal_depth: BASIC_COLOR
+[16:15:51] [Render thread/WARN]: Found okay program match for malilib:pipeline/position_color/translucent/depth_mask: BASIC_COLOR
+[16:15:51] [Render thread/WARN]: Found okay program match for malilib:pipeline/position_color/translucent: BASIC_COLOR
+[16:15:51] [Render thread/WARN]: Found okay program match for malilib:pipeline/position_color/masa/no_depth/no_cull: BASIC_COLOR
+[16:15:51] [Render thread/WARN]: Found okay program match for malilib:pipeline/position_color/masa/no_depth: BASIC_COLOR
+[16:15:51] [Render thread/WARN]: Found okay program match for malilib:pipeline/position_color/masa/lequal_depth/offset_1: BASIC_COLOR
+[16:15:51] [Render thread/WARN]: Found okay program match for malilib:pipeline/position_color/masa/lequal_depth/offset_2: BASIC_COLOR
+[16:15:51] [Render thread/WARN]: Found okay program match for malilib:pipeline/position_color/masa/lequal_depth/offset_3: BASIC_COLOR
+[16:15:51] [Render thread/WARN]: Found okay program match for malilib:pipeline/position_color/masa/lequal_depth/no_cull: BASIC_COLOR
+[16:15:51] [Render thread/WARN]: Found okay program match for malilib:pipeline/position_color/masa/lequal_depth: BASIC_COLOR
+[16:15:51] [Render thread/WARN]: Found okay program match for malilib:pipeline/position_color/masa/depth_mask: BASIC_COLOR
+[16:15:51] [Render thread/WARN]: Found okay program match for malilib:pipeline/position_color/masa: BASIC_COLOR
+[16:15:51] [Render thread/WARN]: Found okay program match for malilib:pipeline/text_plate_bg/no_depth: BASIC_COLOR
+[16:15:51] [Render thread/WARN]: Found okay program match for malilib:pipeline/text_plate_bg: BASIC_COLOR
+[16:15:51] [Render thread/WARN]: Found okay program match for malilib:pipeline/minihud/shape/no_depth/offset: BASIC_COLOR
+[16:15:51] [Render thread/WARN]: Found okay program match for malilib:pipeline/minihud/shape/no_depth: BASIC_COLOR
+[16:15:51] [Render thread/WARN]: Found okay program match for malilib:pipeline/minihud/shape/offset/no_cull: BASIC_COLOR
+[16:15:51] [Render thread/WARN]: Found okay program match for malilib:pipeline/minihud/shape/offset: BASIC_COLOR
+[16:15:51] [Render thread/WARN]: Found okay program match for malilib:pipeline/minihud/shape/no_cull: BASIC_COLOR
+[16:15:51] [Render thread/WARN]: Found okay program match for malilib:pipeline/minihud/shape: BASIC_COLOR
+[16:15:51] [Render thread/WARN]: Found *decent* program match for malilib:pipeline/position_color_lines/translucent/no_depth/no_cull: LINES
+[16:15:51] [Render thread/WARN]: Found *decent* program match for malilib:pipeline/position_color_lines/translucent/no_depth: LINES
+[16:15:51] [Render thread/WARN]: Found *decent* program match for malilib:pipeline/position_color_lines/translucent/lequal_depth/offset_1: LINES
+[16:15:51] [Render thread/WARN]: Found *decent* program match for malilib:pipeline/position_color_lines/translucent/lequal_depth/offset_2: LINES
+[16:15:51] [Render thread/WARN]: Found *decent* program match for malilib:pipeline/position_color_lines/translucent/lequal_depth/offset_3: LINES
+[16:15:51] [Render thread/WARN]: Found *decent* program match for malilib:pipeline/position_color_lines/translucent/lequal_depth/no_cull: LINES
+[16:15:51] [Render thread/WARN]: Found *decent* program match for malilib:pipeline/position_color_lines/translucent/lequal_depth: LINES
+[16:15:51] [Render thread/WARN]: Found *decent* program match for malilib:pipeline/position_color_lines/translucent: LINES
+[16:15:51] [Render thread/WARN]: Found *decent* program match for malilib:pipeline/position_color_lines/masa/no_depth/no_cull: LINES
+[16:15:51] [Render thread/WARN]: Found *decent* program match for malilib:pipeline/position_color_lines/masa/no_depth: LINES
+[16:15:51] [Render thread/WARN]: Found *decent* program match for malilib:pipeline/position_color_lines/masa/lequal_depth/offset_1: LINES
+[16:15:51] [Render thread/WARN]: Found *decent* program match for malilib:pipeline/position_color_lines/masa/lequal_depth/offset_2: LINES
+[16:15:51] [Render thread/WARN]: Found *decent* program match for malilib:pipeline/position_color_lines/masa/lequal_depth/offset_3: LINES
+[16:15:51] [Render thread/WARN]: Found *decent* program match for malilib:pipeline/position_color_lines/masa/lequal_depth/no_cull: LINES
+[16:15:51] [Render thread/WARN]: Found *decent* program match for malilib:pipeline/position_color_lines/masa/lequal_depth: LINES
+[16:15:51] [Render thread/WARN]: Found *decent* program match for malilib:pipeline/position_color_lines/masa: LINES
+[16:15:51] [Render thread/WARN]: Found *decent* program match for malilib:pipeline/minihud/shape_lines/no_depth/offset: LINES
+[16:15:51] [Render thread/WARN]: Found *decent* program match for malilib:pipeline/minihud/shape_lines/no_depth: LINES
+[16:15:51] [Render thread/WARN]: Found *decent* program match for malilib:pipeline/minihud/shape_lines/offset/no_cull: LINES
+[16:15:51] [Render thread/WARN]: Found *decent* program match for malilib:pipeline/minihud/shape_lines/offset: LINES
+[16:15:51] [Render thread/WARN]: Found *decent* program match for malilib:pipeline/minihud/shape_lines/no_cull: LINES
+[16:15:51] [Render thread/WARN]: Found *decent* program match for malilib:pipeline/minihud/shape_lines: LINES
+[16:15:51] [Render thread/WARN]: Found okay program match for malilib:pipeline/position_tex_color/translucent/no_depth/no_cull: TEXTURED_COLOR
+[16:15:51] [Render thread/WARN]: Found okay program match for malilib:pipeline/position_tex_color/translucent/no_depth: TEXTURED_COLOR
+[16:15:51] [Render thread/WARN]: Found okay program match for malilib:pipeline/position_tex_color/translucent/lequal_depth/offset_1: TEXTURED_COLOR
+[16:15:51] [Render thread/WARN]: Found okay program match for malilib:pipeline/position_tex_color/translucent/lequal_depth/offset_2: TEXTURED_COLOR
+[16:15:51] [Render thread/WARN]: Found okay program match for malilib:pipeline/position_tex_color/translucent/lequal_depth/offset_3: TEXTURED_COLOR
+[16:15:51] [Render thread/WARN]: Found okay program match for malilib:pipeline/position_tex_color/translucent/lequal_depth/no_cull: TEXTURED_COLOR
+[16:15:51] [Render thread/WARN]: Found okay program match for malilib:pipeline/position_tex_color/translucent/lequal_depth: TEXTURED_COLOR
+[16:15:51] [Render thread/WARN]: Found okay program match for malilib:pipeline/position_tex_color/translucent/depth_mask: TEXTURED_COLOR
+[16:15:51] [Render thread/WARN]: Found okay program match for malilib:pipeline/position_tex_color/translucent: TEXTURED_COLOR
+[16:15:51] [Render thread/WARN]: Found okay program match for malilib:pipeline/position_tex_color/masa/no_depth/no_cull: TEXTURED_COLOR
+[16:15:51] [Render thread/WARN]: Found okay program match for malilib:pipeline/position_tex_color/masa/no_depth: TEXTURED_COLOR
+[16:15:51] [Render thread/WARN]: Found okay program match for malilib:pipeline/position_tex_color/masa/lequal_depth/offset_1: TEXTURED_COLOR
+[16:15:51] [Render thread/WARN]: Found okay program match for malilib:pipeline/position_tex_color/masa/lequal_depth/offset_2: TEXTURED_COLOR
+[16:15:51] [Render thread/WARN]: Found okay program match for malilib:pipeline/position_tex_color/masa/lequal_depth/offset_3: TEXTURED_COLOR
+[16:15:51] [Render thread/WARN]: Found okay program match for malilib:pipeline/position_tex_color/masa/lequal_depth/no_cull: TEXTURED_COLOR
+[16:15:51] [Render thread/WARN]: Found okay program match for malilib:pipeline/position_tex_color/masa/lequal_depth: TEXTURED_COLOR
+[16:15:51] [Render thread/WARN]: Found okay program match for malilib:pipeline/position_tex_color/masa/depth_mask: TEXTURED_COLOR
+[16:15:51] [Render thread/WARN]: Found okay program match for malilib:pipeline/position_tex_color/masa: TEXTURED_COLOR
+[16:15:51] [Render thread/WARN]: Found *decent* program match for malilib:pipeline/debug_lines/translucent/no_depth/no_cull: LINES
+[16:15:51] [Render thread/WARN]: Found *decent* program match for malilib:pipeline/debug_lines/translucent/no_depth: LINES
+[16:15:51] [Render thread/WARN]: Found *decent* program match for malilib:pipeline/debug_lines/translucent/no_cull: LINES
+[16:15:51] [Render thread/WARN]: Found *decent* program match for malilib:pipeline/debug_lines/translucent/lequal_depth: LINES
+[16:15:51] [Render thread/WARN]: Found *decent* program match for malilib:pipeline/debug_lines/translucent/offset_1: LINES
+[16:15:51] [Render thread/WARN]: Found *decent* program match for malilib:pipeline/debug_lines/translucent/offset_2: LINES
+[16:15:51] [Render thread/WARN]: Found *decent* program match for malilib:pipeline/debug_lines/translucent/offset_3: LINES
+[16:15:51] [Render thread/WARN]: Found *decent* program match for malilib:pipeline/debug_lines/translucent: LINES
+[16:15:51] [Render thread/WARN]: Found *decent* program match for malilib:pipeline/debug_lines/masa_simple/no_depth/no_cull: LINES
+[16:15:51] [Render thread/WARN]: Found *decent* program match for malilib:pipeline/debug_lines/masa_simple/no_depth: LINES
+[16:15:51] [Render thread/WARN]: Found *decent* program match for malilib:pipeline/debug_lines/masa_simple/no_cull: LINES
+[16:15:51] [Render thread/WARN]: Found *decent* program match for malilib:pipeline/debug_lines/masa_simple/lequal_depth: LINES
+[16:15:51] [Render thread/WARN]: Found *decent* program match for malilib:pipeline/debug_lines/masa_simple/offset_1: LINES
+[16:15:51] [Render thread/WARN]: Found *decent* program match for malilib:pipeline/debug_lines/masa_simple/offset_2: LINES
+[16:15:51] [Render thread/WARN]: Found *decent* program match for malilib:pipeline/debug_lines/masa_simple/offset_3: LINES
+[16:15:51] [Render thread/WARN]: Found *decent* program match for malilib:pipeline/debug_lines/masa_simple: LINES
+[16:15:51] [Render thread/WARN]: Found *decent* program match for malilib:pipeline/debug_line_strip/translucent/no_depth/no_cull: LINES
+[16:15:51] [Render thread/WARN]: Found *decent* program match for malilib:pipeline/debug_line_strip/translucent/no_depth: LINES
+[16:15:51] [Render thread/WARN]: Found *decent* program match for malilib:pipeline/debug_line_strip/translucent/no_cull: LINES
+[16:15:51] [Render thread/WARN]: Found *decent* program match for malilib:pipeline/debug_line_strip/translucent/offset_1: LINES
+[16:15:51] [Render thread/WARN]: Found *decent* program match for malilib:pipeline/debug_line_strip/translucent/offset_2: LINES
+[16:15:51] [Render thread/WARN]: Found *decent* program match for malilib:pipeline/debug_line_strip/translucent/offset_3: LINES
+[16:15:51] [Render thread/WARN]: Found *decent* program match for malilib:pipeline/debug_line_strip/translucent: LINES
+[16:15:51] [Render thread/WARN]: Found *decent* program match for malilib:pipeline/debug_line_strip/masa_simple/no_depth/no_cull: LINES
+[16:15:51] [Render thread/WARN]: Found *decent* program match for malilib:pipeline/debug_line_strip/masa_simple/no_depth: LINES
+[16:15:51] [Render thread/WARN]: Found *decent* program match for malilib:pipeline/debug_line_strip/masa_simple/no_cull: LINES
+[16:15:51] [Render thread/WARN]: Found *decent* program match for malilib:pipeline/debug_line_strip/masa_simple/offset_1: LINES
+[16:15:51] [Render thread/WARN]: Found *decent* program match for malilib:pipeline/debug_line_strip/masa_simple/offset_2: LINES
+[16:15:51] [Render thread/WARN]: Found *decent* program match for malilib:pipeline/debug_line_strip/masa_simple/offset_3: LINES
+[16:15:51] [Render thread/WARN]: Found *decent* program match for malilib:pipeline/debug_line_strip/masa_simple: LINES
+[16:15:51] [Render thread/WARN]: Found *decent* program match for malilib:pipeline/legacy/solid: TERRAIN_SOLID
+[16:15:51] [Render thread/WARN]: Found *decent* program match for malilib:pipeline/legacy/wireframe: LINES
+[16:15:51] [Render thread/WARN]: Found fine program match for malilib:pipeline/legacy/cutout: TERRAIN_CUTOUT
+[16:15:51] [Render thread/WARN]: Found *decent* program match for malilib:pipeline/legacy/solid/masa/offset: TERRAIN_SOLID
+[16:15:51] [Render thread/WARN]: Found *decent* program match for malilib:pipeline/legacy/wireframe/offset: LINES
+[16:15:51] [Render thread/WARN]: Found fine program match for malilib:pipeline/legacy/cutout/offset: TERRAIN_CUTOUT
+[16:15:51] [Render thread/WARN]: Found fine program match for malilib:pipeline/legacy/translucent: SODIUM_TERRAIN_TRANSLUCENT
+[16:15:51] [Render thread/WARN]: Found fine program match for malilib:pipeline/legacy/translucent/offset: SODIUM_TERRAIN_TRANSLUCENT
+[16:15:51] [Render thread/INFO]: Hardware information:
+[16:15:52] [Render thread/INFO]: CPU: 8x 
+[16:15:52] [Render thread/INFO]: GPU: Adreno (TM) 840 | OpenGL ES 3.2 (Supports OpenGL 4.0.0 MobileGlues 1.3.4)
+[16:15:52] [Render thread/INFO]: OS: Linux (Android-16)
+[16:15:52] [Render thread/ERROR]: Error while loading the narrator
+com.mojang.text2speech.Narrator$InitializeException: Failed to load library flite
+	at knot//com.mojang.text2speech.NarratorLinux$FliteLibrary.loadNative(NarratorLinux.java:82)
+	at knot//com.mojang.text2speech.NarratorLinux.<init>(NarratorLinux.java:19)
+	at knot//com.mojang.text2speech.Narrator.getNarrator(Narrator.java:41)
+	at knot//net.minecraft.client.GameNarrator.<init>(GameNarrator.java:20)
+	at knot//net.minecraft.client.Minecraft.<init>(Minecraft.java:733)
+	at knot//net.minecraft.client.main.Main.main(Main.java:278)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+Caused by: java.lang.UnsatisfiedLinkError: Unable to load library 'flite':
+dlopen failed: library "libflite.so" not found
+dlopen failed: library "libflite.so" not found
+Native library (linux-aarch64/libflite.so) not found in resource path (/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/lwjgl3/3.4.1/lwjgl.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/lwjgl3/3.4.1/lwjgl-3.4.1-merged-modules.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/lwjgl3/3.4.1/lwjgl-freetype.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/lwjgl3/3.4.1/lwjgl-nanovg.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/lwjgl3/3.4.1/lwjgl-openal.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/lwjgl3/3.4.1/lwjgl-sdl.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/lwjgl3/3.4.1/lwjgl-shaderc.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/lwjgl3/3.4.1/lwjgl-spng.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/lwjgl3/3.4.1/lwjgl-spvc.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/lwjgl3/3.4.1/lwjgl-stb.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/lwjgl3/3.4.1/lwjgl-tinyfd.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/lwjgl3/3.4.1/lwjgl-vma.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/lwjgl3/3.4.1/lwjgl-vulkan.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/at/yawk/lz4/lz4-java/1.10.1/lz4-java-1.10.1.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/com/azure/azure-json/1.4.0/azure-json-1.4.0.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/com/github/oshi/oshi-core/6.9.0/oshi-core-6.9.0.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/com/google/code/gson/gson/2.14.0/gson-2.14.0.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/com/google/guava/guava/33.6.0-jre/guava-33.6.0-jre.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/com/ibm/icu/icu4j/78.3/icu4j-78.3.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/com/microsoft/azure/msal4j/1.24.1/msal4j-1.24.1.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/com/mojang/authlib/9.0.75/authlib-9.0.75.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/com/mojang/blocklist/1.0.10/blocklist-1.0.10.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/com/mojang/brigadier/1.3.10/brigadier-1.3.10.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/com/mojang/datafixerupper/10.0.21/datafixerupper-10.0.21.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/com/mojang/jtracy/1.0.37/jtracy-1.0.37.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/com/mojang/jtracy/1.0.37/jtracy-1.0.37-natives-linux.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/com/mojang/jtracy/1.0.37/jtracy-1.0.37-natives-windows.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/com/mojang/logging/1.7.12/logging-1.7.12.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/com/mojang/patchy/2.2.10/patchy-2.2.10.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/com/mojang/text2speech/1.19.12/text2speech-1.19.12.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/commons-codec/commons-codec/1.22.0/commons-codec-1.22.0.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/commons-io/commons-io/2.20.0/commons-io-2.20.0.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/io/netty/netty-buffer/4.2.15.Final/netty-buffer-4.2.15.Final.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/io/netty/netty-codec-base/4.2.15.Final/netty-codec-base-4.2.15.Final.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/io/netty/netty-codec-compression/4.2.15.Final/netty-codec-compression-4.2.15.Final.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/io/netty/netty-codec-http/4.2.15.Final/netty-codec-http-4.2.15.Final.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/io/netty/netty-common/4.2.15.Final/netty-common-4.2.15.Final.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/io/netty/netty-handler/4.2.15.Final/netty-handler-4.2.15.Final.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/io/netty/netty-resolver/4.2.15.Final/netty-resolver-4.2.15.Final.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/io/netty/netty-transport-classes-epoll/4.2.15.Final/netty-transport-classes-epoll-4.2.15.Final.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/io/netty/netty-transport-classes-kqueue/4.2.15.Final/netty-transport-classes-kqueue-4.2.15.Final.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/io/netty/netty-transport-native-epoll/4.2.15.Final/netty-transport-native-epoll-4.2.15.Final-linux-aarch_64.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/io/netty/netty-transport-native-epoll/4.2.15.Final/netty-transport-native-epoll-4.2.15.Final-linux-x86_64.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/io/netty/netty-transport-native-unix-common/4.2.15.Final/netty-transport-native-unix-common-4.2.15.Final.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/io/netty/netty-transport/4.2.15.Final/netty-transport-4.2.15.Final.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/it/unimi/dsi/fastutil/8.5.18/fastutil-8.5.18.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/net/java/dev/jna/jna-platform/5.17.0/jna-platform-5.17.0.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/net/java/dev/jna/jna/5.17.0/jna-5.17.0.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/org/apache/commons/commons-compress/1.28.0/commons-compress-1.28.0.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/org/apache/commons/commons-lang3/3.20.0/commons-lang3-3.20.0.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/org/apache/logging/log4j/log4j-api/2.26.0/log4j-api-2.26.0.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/org/apache/logging/log4j/log4j-core/2.26.0/log4j-core-2.26.0.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/org/apache/logging/log4j/log4j-slf4j2-impl/2.26.0/log4j-slf4j2-impl-2.26.0.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/org/jcraft/jorbis/0.0.17/jorbis-0.0.17.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/org/joml/joml/1.10.8/joml-1.10.8.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/org/ow2/asm/asm/9.10.1/asm-9.10.1.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/org/ow2/asm/asm-analysis/9.10.1/asm-analysis-9.10.1.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/org/ow2/asm/asm-commons/9.10.1/asm-commons-9.10.1.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/org/ow2/asm/asm-tree/9.10.1/asm-tree-9.10.1.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/org/ow2/asm/asm-util/9.10.1/asm-util-9.10.1.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/net/fabricmc/sponge-mixin/0.17.3+mixin.0.8.7/sponge-mixin-0.17.3+mixin.0.8.7.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/net/fabricmc/fabric-loader/0.19.3/fabric-loader-0.19.3.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/versions/fabric-loader-0.19.3-26.2/fabric-loader-0.19.3-26.2.jar)
+	at knot//com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:325)
+	at knot//com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:481)
+	at knot//com.sun.jna.NativeLibrary.getInstance(NativeLibrary.java:423)
+	at knot//com.mojang.text2speech.NarratorLinux$FliteLibrary.loadNative(NarratorLinux.java:80)
+	... 8 more
+	Suppressed: java.lang.UnsatisfiedLinkError: dlopen failed: library "libflite.so" not found
+		at knot//com.sun.jna.Native.open(Native Method)
+		at knot//com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:213)
+		... 11 more
+	Suppressed: java.lang.UnsatisfiedLinkError: dlopen failed: library "libflite.so" not found
+		at knot//com.sun.jna.Native.open(Native Method)
+		at knot//com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:226)
+		... 11 more
+	Suppressed: java.io.IOException: Native library (linux-aarch64/libflite.so) not found in resource path (/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/lwjgl3/3.4.1/lwjgl.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/lwjgl3/3.4.1/lwjgl-3.4.1-merged-modules.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/lwjgl3/3.4.1/lwjgl-freetype.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/lwjgl3/3.4.1/lwjgl-nanovg.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/lwjgl3/3.4.1/lwjgl-openal.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/lwjgl3/3.4.1/lwjgl-sdl.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/lwjgl3/3.4.1/lwjgl-shaderc.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/lwjgl3/3.4.1/lwjgl-spng.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/lwjgl3/3.4.1/lwjgl-spvc.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/lwjgl3/3.4.1/lwjgl-stb.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/lwjgl3/3.4.1/lwjgl-tinyfd.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/lwjgl3/3.4.1/lwjgl-vma.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/lwjgl3/3.4.1/lwjgl-vulkan.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/at/yawk/lz4/lz4-java/1.10.1/lz4-java-1.10.1.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/com/azure/azure-json/1.4.0/azure-json-1.4.0.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/com/github/oshi/oshi-core/6.9.0/oshi-core-6.9.0.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/com/google/code/gson/gson/2.14.0/gson-2.14.0.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/com/google/guava/failureaccess/1.0.3/failureaccess-1.0.3.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/com/google/guava/guava/33.6.0-jre/guava-33.6.0-jre.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/com/ibm/icu/icu4j/78.3/icu4j-78.3.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/com/microsoft/azure/msal4j/1.24.1/msal4j-1.24.1.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/com/mojang/authlib/9.0.75/authlib-9.0.75.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/com/mojang/blocklist/1.0.10/blocklist-1.0.10.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/com/mojang/brigadier/1.3.10/brigadier-1.3.10.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/com/mojang/datafixerupper/10.0.21/datafixerupper-10.0.21.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/com/mojang/jtracy/1.0.37/jtracy-1.0.37.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/com/mojang/jtracy/1.0.37/jtracy-1.0.37-natives-linux.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/com/mojang/jtracy/1.0.37/jtracy-1.0.37-natives-windows.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/com/mojang/logging/1.7.12/logging-1.7.12.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/com/mojang/patchy/2.2.10/patchy-2.2.10.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/com/mojang/text2speech/1.19.12/text2speech-1.19.12.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/commons-codec/commons-codec/1.22.0/commons-codec-1.22.0.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/commons-io/commons-io/2.20.0/commons-io-2.20.0.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/io/netty/netty-buffer/4.2.15.Final/netty-buffer-4.2.15.Final.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/io/netty/netty-codec-base/4.2.15.Final/netty-codec-base-4.2.15.Final.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/io/netty/netty-codec-compression/4.2.15.Final/netty-codec-compression-4.2.15.Final.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/io/netty/netty-codec-http/4.2.15.Final/netty-codec-http-4.2.15.Final.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/io/netty/netty-common/4.2.15.Final/netty-common-4.2.15.Final.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/io/netty/netty-handler/4.2.15.Final/netty-handler-4.2.15.Final.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/io/netty/netty-resolver/4.2.15.Final/netty-resolver-4.2.15.Final.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/io/netty/netty-transport-classes-epoll/4.2.15.Final/netty-transport-classes-epoll-4.2.15.Final.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/io/netty/netty-transport-classes-kqueue/4.2.15.Final/netty-transport-classes-kqueue-4.2.15.Final.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/io/netty/netty-transport-native-epoll/4.2.15.Final/netty-transport-native-epoll-4.2.15.Final-linux-aarch_64.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/io/netty/netty-transport-native-epoll/4.2.15.Final/netty-transport-native-epoll-4.2.15.Final-linux-x86_64.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/io/netty/netty-transport-native-unix-common/4.2.15.Final/netty-transport-native-unix-common-4.2.15.Final.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/io/netty/netty-transport/4.2.15.Final/netty-transport-4.2.15.Final.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/it/unimi/dsi/fastutil/8.5.18/fastutil-8.5.18.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/net/java/dev/jna/jna-platform/5.17.0/jna-platform-5.17.0.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/net/java/dev/jna/jna/5.17.0/jna-5.17.0.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/net/sf/jopt-simple/jopt-simple/5.0.4/jopt-simple-5.0.4.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/org/apache/commons/commons-compress/1.28.0/commons-compress-1.28.0.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/org/apache/commons/commons-lang3/3.20.0/commons-lang3-3.20.0.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/org/apache/logging/log4j/log4j-api/2.26.0/log4j-api-2.26.0.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/org/apache/logging/log4j/log4j-core/2.26.0/log4j-core-2.26.0.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/org/apache/logging/log4j/log4j-slf4j2-impl/2.26.0/log4j-slf4j2-impl-2.26.0.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/org/jcraft/jorbis/0.0.17/jorbis-0.0.17.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/org/joml/joml/1.10.8/joml-1.10.8.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/org/jspecify/jspecify/1.0.0/jspecify-1.0.0.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/org/slf4j/slf4j-api/2.0.17/slf4j-api-2.0.17.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/org/ow2/asm/asm/9.10.1/asm-9.10.1.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/org/ow2/asm/asm-analysis/9.10.1/asm-analysis-9.10.1.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/org/ow2/asm/asm-commons/9.10.1/asm-commons-9.10.1.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/org/ow2/asm/asm-tree/9.10.1/asm-tree-9.10.1.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/org/ow2/asm/asm-util/9.10.1/asm-util-9.10.1.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/net/fabricmc/sponge-mixin/0.17.3+mixin.0.8.7/sponge-mixin-0.17.3+mixin.0.8.7.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/libraries/net/fabricmc/fabric-loader/0.19.3/fabric-loader-0.19.3.jar:/storage/emulated/0/Android/data/org.angelauramc.amethyst/files/.minecraft/versions/fabric-loader-0.19.3-26.2/fabric-loader-0.19.3-26.2.jar)
+		at knot//com.sun.jna.Native.extractFromResourcePath(Native.java:1141)
+		at knot//com.sun.jna.NativeLibrary.loadLibrary(NativeLibrary.java:297)
+		... 11 more
+[16:15:52] [Render thread/INFO]: Reloading ResourceManager: vanilla, appleskin, balm, betterf3, chat_heads, cloth-config, conditional-mixin, creativecore, defaultoptions, fabric-api, fabric-api-base, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-block-api-v1, fabric-block-getter-api-v2, fabric-command-api-v2, fabric-content-registries-v0, fabric-convention-tags-v2, fabric-crash-report-info-v1, fabric-creative-tab-api-v1, fabric-data-attachment-api-v1, fabric-data-generation-api-v1, fabric-debug-api-v1, fabric-dimensions-v1, fabric-entity-events-v1, fabric-events-interaction-v0, fabric-game-rule-api-v1, fabric-item-api-v1, fabric-key-mapping-api-v1, fabric-language-kotlin, fabric-lifecycle-events-v1, fabric-loot-api-v3, fabric-menu-api-v1, fabric-message-api-v1, fabric-model-loading-api-v1, fabric-networking-api-v1, fabric-object-builder-api-v1, fabric-particles-v1, fabric-permission-api-v1, fabric-recipe-api-v1, fabric-registry-sync-v0, fabric-renderer-api-v1, fabric-renderer-indigo, fabric-rendering-fluids-v1, fabric-rendering-v1, fabric-resource-conditions-api-v1, fabric-resource-loader-v0, fabric-resource-loader-v1, fabric-screen-api-v1, fabric-serialization-api-v1, fabric-sound-api-v1, fabric-tag-api-v1, fabric-transfer-api-v1, fabric-transitive-access-wideners-v1, fabricloader, immediatelyfast, iris, kuma_api, libipn, lithium, malilib, minihud, modmenu, moreculling, placeholder-api, shulkerboxtooltip, sodium, yet_another_config_lib_v3, zoomify
+[16:15:52] [Render thread/INFO]: i18nLang#load: File: '/assets/malilib/lang/en_us.json' has been loaded successfully
+[16:15:52] [Render thread/WARN]: i18nOptionManager#buildLanguageOptions(malilib): Detected [12] available options.
+[16:15:52] [Render thread/INFO]: Carpet: [N/F], CarpetTIS: [N/F]
+[16:15:52] [Render thread/INFO]: i18nLang#load: File: '/assets/minihud/lang/en_us.json' has been loaded successfully
+[16:15:52] [Render thread/WARN]: i18nOptionManager#buildLanguageOptions(minihud): Detected [8] available options.
+[16:15:53] [Render thread/INFO]: Cached all modded block culling states
+[16:15:53] [Render thread/INFO]: Loaded 126 default key bindings.
+[16:15:53] [Render thread/INFO]: Applied 66 defaults to key mappings (0 keys were reconfigured).
+[16:15:53] [Render thread/INFO]: Loaded default options for keymappings
+[16:15:53] [Worker-Main-3/INFO]: Found unifont_all_no_pua-17.0.01.hex, loading
+[16:15:53] [Render thread/INFO]: [STDOUT]: GLFW: Set size for window 469796972480, width=2340, height=1080
+[16:15:53] [Worker-Main-6/INFO]: Found unifont_pua-17.0.01.hex, loading
+[16:15:53] [Render thread/INFO]: Thread[#3,Render thread,10,main]
+[16:15:53] [Render thread/INFO]: OpenGL Vendor: Swung0x48, BZLZHH, Tungsten
+[16:15:53] [Render thread/INFO]: OpenGL Renderer: Adreno (TM) 840 | OpenGL ES 3.2
+[16:15:53] [Render thread/INFO]: OpenGL Version: 4.0.0 MobileGlues 1.3.4
+[16:15:53] [Worker-Main-2/INFO]: Found unifont_jp_patch-17.0.01.hex, loading
+[16:15:55] [Render thread/INFO]: OpenAL initialized on device OpenSL
+[16:15:55] [Render thread/INFO]: Sound engine started
+[16:15:55] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/particles.png-atlas
+[16:15:55] [Render thread/INFO]: Created: 128x128x0 minecraft:textures/atlas/decorated_pot.png-atlas
+[16:15:55] [Render thread/INFO]: Created: 2048x1024x0 minecraft:textures/atlas/armor_trims.png-atlas
+[16:15:55] [Render thread/INFO]: Created: 512x256x0 minecraft:textures/atlas/paintings.png-atlas
+[16:15:55] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/shield_patterns.png-atlas
+[16:15:55] [Render thread/INFO]: Created: 4096x4096x4 minecraft:textures/atlas/blocks.png-atlas
+[16:15:55] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/chest.png-atlas
+[16:15:55] [Render thread/INFO]: Created: 256x128x0 minecraft:textures/atlas/celestials.png-atlas
+[16:15:55] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/banner_patterns.png-atlas
+[16:15:55] [Render thread/INFO]: Created: 1024x512x0 minecraft:textures/atlas/items.png-atlas
+[16:15:55] [Render thread/INFO]: Created: 1024x1024x0 minecraft:textures/atlas/gui.png-atlas
+[16:15:55] [Render thread/INFO]: Created: 128x64x0 minecraft:textures/atlas/map_decorations.png-atlas
+[16:15:55] [Render thread/INFO]: Created: 512x512x0 minecraft:textures/atlas/shulker_boxes.png-atlas
+[16:15:56] [Render thread/INFO]: 32370 cache(s) were cleared!
+[16:15:56] [Render thread/INFO]: Creating pipeline for dimension minecraft:overworld
+[16:15:57] [Render thread/WARN]: Shader compilation log for composite1.fsh: ERROR: Unsupported or invalid OpenGL ES version
+
+[16:15:57] [Render thread/ERROR]: Failed to create shader rendering pipeline, disabling shaders!
+net.irisshaders.iris.gl.shader.ShaderCompileException: composite1.fsh: composite1.fsh: ERROR: Unsupported or invalid OpenGL ES version
+
+	at knot//net.irisshaders.iris.gl.shader.GlShader.createShader(GlShader.java:46)
+	at knot//net.irisshaders.iris.gl.shader.GlShader.<init>(GlShader.java:25)
+	at knot//net.irisshaders.iris.gl.program.ProgramBuilder.buildShader(ProgramBuilder.java:89)
+	at knot//net.irisshaders.iris.gl.program.ProgramBuilder.begin(ProgramBuilder.java:50)
+	at knot//net.irisshaders.iris.pipeline.CompositeRenderer.createProgram(CompositeRenderer.java:383)
+	at knot//net.irisshaders.iris.pipeline.CompositeRenderer.<init>(CompositeRenderer.java:151)
+	at knot//net.irisshaders.iris.pipeline.IrisRenderingPipeline.<init>(IrisRenderingPipeline.java:353)
+	at knot//net.irisshaders.iris.Iris.createPipeline(Iris.java:640)
+	at knot//net.irisshaders.iris.pipeline.PipelineManager.preparePipeline(PipelineManager.java:33)
+	at knot//net.irisshaders.iris.Iris.onLoadingComplete(Iris.java:172)
+	at knot//net.minecraft.client.gui.screens.TitleScreen.handler$bmf000$iris$firstInit(TitleScreen.java:525)
+	at knot//net.minecraft.client.gui.screens.TitleScreen.init(TitleScreen.java:155)
+	at knot//net.minecraft.client.gui.screens.Screen.init(Screen.java:324)
+	at knot//net.minecraft.client.gui.Gui.setScreen(Gui.java:269)
+	at knot//net.minecraft.client.gui.Gui.lambda$buildInitialScreens$0(Gui.java:378)
+	at knot//net.minecraft.client.Minecraft.onGameLoadFinished(Minecraft.java:817)
+	at knot//net.minecraft.client.Minecraft.onResourceLoadFinished(Minecraft.java:806)
+	at knot//net.minecraft.client.Minecraft.lambda$new$6(Minecraft.java:759)
+	at knot//net.minecraft.util.Util.ifElse(Util.java:730)
+	at knot//net.minecraft.client.Minecraft.lambda$new$4(Minecraft.java:754)
+	at knot//net.minecraft.client.gui.screens.LoadingOverlay.tick(LoadingOverlay.java:139)
+	at knot//net.minecraft.client.gui.Gui.tick(Gui.java:130)
+	at knot//net.minecraft.client.Minecraft.tick(Minecraft.java:1878)
+	at knot//net.minecraft.client.Minecraft.runTick(Minecraft.java:1250)
+	at knot//net.minecraft.client.Minecraft.run(Minecraft.java:959)
+	at knot//net.minecraft.client.main.Main.main(Main.java:292)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:514)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:72)
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23)
+[16:16:12] [Render thread/INFO]: Loaded 1585 recipes
+[16:16:12] [Render thread/INFO]: Loaded 1688 advancements
+[16:16:12] [Render thread/INFO]: Applied 0 biome modifications to 0 of 66 new biomes in 1.891 ms
+[16:16:12] [Server thread/INFO]: Starting integrated minecraft server version 26.2
+[16:16:12] [Server thread/INFO]: Generating keypair
+[16:16:13] [Server thread/INFO]: Loading 0 persistent chunks...
+[16:16:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[16:16:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[16:16:13] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[16:16:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:16:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:16:13] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:16:13] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[16:16:13] [Render thread/WARN]: Failed to find a usable hardware address from the network interfaces; using random bytes: 12:fd:f3:3e:d3:1f:2c:ca
+[16:16:14] [Server thread/INFO]: Loading 49 chunks for player spawn...
+[16:16:14] [Server thread/INFO]: Preparing spawn area: 16%
+[16:16:14] [Server thread/INFO]: Preparing spawn area: 16%
+[16:16:14] [Server thread/INFO]: Preparing spawn area: 16%
+[16:16:14] [Server thread/INFO]: Preparing spawn area: 16%
+[16:16:15] [Server thread/INFO]: Preparing spawn area: 100%
+[16:16:15] [Server thread/INFO]: Time elapsed: 2070 ms
+[16:16:15] [Server thread/INFO]: DualDragon6022[local:E:f9729d76] logged in with entity id 43 at (-2394.3956605081926, 66.11650136792812, 571.0068307765771)
+[16:16:15] [Server thread/INFO]: DualDragon6022 joined the game
+[16:16:15] [Render thread/INFO]: Started 2 worker threads
+[16:16:15] [Server thread/INFO]: Changing view distance to 16, from 10
+[16:16:15] [Server thread/INFO]: Changing simulation distance to 10, from 0
+[16:16:15] [Render thread/INFO]: Starting [1] Worker Daemon threads
+[16:16:15] [Render thread/INFO]: [ShulkerBoxTooltip Plugins] Loading 1 plugin: shulkerboxtooltip
+[16:16:15] [Render thread/INFO]: [ShulkerBoxTooltip Plugins] Registered 37 color keys for mod shulkerboxtooltip
+[16:16:15] [Render thread/INFO]: [ShulkerBoxTooltip Plugins] Registered 68 providers for mod shulkerboxtooltip
+[16:16:15] [Render thread/INFO]: [System] [CHAT] The shaderpack failed to load! Please report the error to the shader developer. Copy Info
+[16:16:15] [Render thread/INFO]: Loaded 12 advancements
+[16:16:15] [Render thread/INFO]: [ShulkerBoxTooltip] Server integration enabled, attempting handshake...
+[16:16:15] [Server thread/INFO]: [ShulkerBoxTooltip] DualDragon6022: protocol version: 2.0
+[16:16:15] [Render thread/INFO]: Stopping worker threads
+[16:16:15] [Render thread/INFO]: Started 2 worker threads
+[16:16:16] [Render thread/INFO]: Resizing Dynamic Transforms UBO, capacity limit of 2 reached during a single frame. New capacity will be 4.
+[16:16:16] [Render thread/INFO]: [ShulkerBoxTooltip] Handshake succeeded
+[16:16:16] [Render thread/INFO]: [ShulkerBoxTooltip] Server protocol version: 2.0
+[16:16:16] [Render thread/INFO]: Resizing Dynamic Transforms UBO, capacity limit of 4 reached during a single frame. New capacity will be 8.
+[16:16:16] [Render thread/INFO]: Resizing Dynamic Transforms UBO, capacity limit of 8 reached during a single frame. New capacity will be 16.
+[16:16:16] [Render thread/ERROR]: Couldn't compile vertex shader (sodium:blocks/block_layer_opaque): ERROR: Unsupported or invalid OpenGL ES version
+[16:16:16] [Render thread/ERROR]: Couldn't compile pipeline sodium:pipeline/solid_terrain: vertex shader sodium:blocks/block_layer_opaque was invalid
+[16:16:16] [Render thread/ERROR]: Couldn't compile vertex shader (sodium:blocks/block_layer_opaque): ERROR: Unsupported or invalid OpenGL ES version
+[16:16:16] [Render thread/ERROR]: Couldn't compile pipeline sodium:pipeline/cutout_terrain: vertex shader sodium:blocks/block_layer_opaque was invalid
+[16:16:16] [Render thread/ERROR]: Couldn't compile vertex shader (sodium:blocks/block_layer_opaque): ERROR: Unsupported or invalid OpenGL ES version
+[16:16:16] [Render thread/ERROR]: Couldn't compile pipeline sodium:pipeline/translucent_terrain: vertex shader sodium:blocks/block_layer_opaque was invalid
+[16:16:24] [Server thread/INFO]: Saving and pausing game...
+[16:16:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[16:16:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[16:16:24] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[16:16:24] [Render thread/INFO]: Stopping [1] Worker Daemon threads
+[16:16:24] [Server thread/INFO]: DualDragon6022 lost connection: Disconnected
+[16:16:24] [Server thread/INFO]: DualDragon6022 left the game
+[16:16:24] [Server thread/INFO]: Stopping singleplayer server as player logged out
+[16:16:24] [Server thread/INFO]: Stopping server
+[16:16:24] [Server thread/INFO]: Saving players
+[16:16:24] [Server thread/INFO]: Saving worlds
+[16:16:25] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:overworld
+[16:16:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_end
+[16:16:26] [Server thread/INFO]: Saving chunks for level 'ServerLevel[New World]'/minecraft:the_nether
+[16:16:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[16:16:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[16:16:26] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[16:16:26] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[16:16:26] [Render thread/INFO]: Stopping worker threads
+[16:16:27] [Render thread/INFO]: Stopping [1] Worker Daemon threads
+[16:16:27] [Render thread/INFO]: Stopping!
