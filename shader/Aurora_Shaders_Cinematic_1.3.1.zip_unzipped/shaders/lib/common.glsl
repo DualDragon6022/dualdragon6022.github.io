@@ -5,8 +5,7 @@
 float pow5(float x){float x2=x*x;return x2*x2*x;}
 float ign(vec2 p){return fract(52.9829189*fract(dot(p,vec2(0.06711056,0.00583715))));}
 float hash(vec2 p){return fract(sin(dot(p,vec2(127.1,311.7)))*43758.5453);}
-float vnoise(vec2 p){vec2 i=floor(p),f=fract(p);f=fastSmooth(f);
- return mix(mix(hash(i),hash(i+vec2(1,0)),f.x),mix(hash(i+vec2(0,1)),hash(i+vec2(1,1)),f.x),f.y);}
+float vnoise(vec2 p){vec2 i=floor(p),f=fract(p);f=fastSmooth(f);return mix(mix(hash(i),hash(i+vec2(1,0)),f.x),mix(hash(i+vec2(0,1)),hash(i+vec2(1,1)),f.x),f.y);}
 float dayF(float a){return clamp(cos(a*6.2832)*4.0+0.6,0.0,1.0);}
 float nightF(float a){return 1.0-dayF(a);}
 float sunsetF(float a){float c=abs(cos(a*6.2832));return fastSmooth(clamp(1.0-c*6.0+0.9,0.0,1.0));}
